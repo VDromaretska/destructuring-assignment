@@ -1,7 +1,8 @@
 function listFollowers(followerNames: string[]): string {
-  // complete function
-  // use array destructuring, for practice!
-  return "fails test right now";
+  const [firstFollower, secondFolllower] =followerNames;
+  const message : string= `Followed by ${firstFollower}, ${secondFolllower} and others`
+  return message;
+  //"Followed by @barackobama, @STORMZYOFFICIAL and others"
 }
 
 export default listFollowers;
