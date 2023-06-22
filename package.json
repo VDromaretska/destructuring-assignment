@@ -26,6 +26,8 @@
     "demo:0b": "ts-node src/examples/0b-with-destructuring.ts",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "ex:0a": "ts-node src/challenges/0a-array-destructuring.ts",
+    "ex:0b": "ts-node src/challenges/0b-object-destructuring.ts"
   }
 }
